@@ -1,6 +1,3 @@
-@import url('../Components/Avatar/avatar.css');
-@import url('../Components/Alert/alert.css');
-
 :root{  
     --primary-color: #191c9e;
     --secondary-color: #e6e6ed;
@@ -12,6 +9,7 @@
     --success-color: #0a6d0a;
     --warning-color: #9ee730;
     --background-color: #ffffff;
+    --offline-color: #808080;
 }
 
 body {
@@ -61,7 +59,7 @@ body {
 .example-div{
     box-shadow: var(--box-shadow);
     border-radius: 4px;
-    background-color: #F5F7F9;
+    background-color: var(--background-color);
     width: 90%;
     display: flex;
     justify-content: center;
@@ -84,7 +82,7 @@ body {
     margin: 2rem 0;
     width: 100%;
     height: 1px;
-    background-color: #dadadaf3;
+    background-color: var(--secondary-color);
 }
 
 @media screen and (max-width : 800px){
