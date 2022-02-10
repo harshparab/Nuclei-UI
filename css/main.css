@@ -1,0 +1,54 @@
+.land-page-main {
+    text-align: center;
+    padding-top: 10rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+.span-color {
+    color: var(--primary-color);
+}
+
+.subheading {
+    padding: 1rem;
+    font-size: 1.1rem;
+    padding-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+    .heading {
+        font-size: 1.2rem;
+    }
+
+    .subheading {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
