@@ -45,21 +45,6 @@
 
 @media screen and (max-width : 800px) {
     .side-bar{
-        position: fixed;
-        top : 0;
-        bottom: 0;
-        left: 0;
-        background: white;
-        width: 280px;
-        scroll-behavior: smooth;
-        overflow: auto;
-        z-index: 2;
-        box-shadow: var(--box-shadow);
         display: none;
     }
-
-    .btn-float{
-        display: block;
-    }
-
 }
