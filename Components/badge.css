@@ -17,8 +17,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    top : 8px;
-    right: 8px;
+    top : 0px;
+    right: 3px;
     position: absolute;
     font-size: 0.8rem;
     color: var(--secondary-color);
