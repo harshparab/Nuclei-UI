@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 1.75rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav {
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-nav li {
+    margin: 0 1rem;
+    list-style: none;
+}
+
+.right-nav a {
+    font-weight: 800;
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.right-nav a:hover {
+    color: var(--primary-color);
+}
+
+.left-nav a:hover {
+    color: var(--text-color);
+}
+
+
+@media screen and (max-width : 800px){
+
+    nav{
+        padding: 2.5rem 1rem;
+    }
+
+    .left-nav{
+        font-size: 1.1rem;
+    }
+
+    .right-nav li{
+        margin: 0 .5rem;
+    }
+
+    .right-nav li a{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .container{
+        width: 100%;
+    }
+    
+    nav{
+        padding: 1rem;
+    }
+}

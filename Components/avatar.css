@@ -1,0 +1,25 @@
+.avatar {
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    margin: 1rem;
+}
+
+.tiny {
+    width: 5rem;
+    height: 5rem;
+}
+
+.normal {
+    width: 7rem;
+    height: 7rem;
+}
+
+.huge {
+    width: 9rem;
+    height: 9rem;
+}
+
+.square {
+    border-radius: 5px;
+}

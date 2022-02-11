@@ -1,0 +1,50 @@
+.side-bar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    flex: 0 0 240px;
+    margin-right: 1rem;
+    background-color: var(--background-color);
+}
+
+.list-topic {
+    padding: 1rem;
+    font-weight: 800;
+    border-bottom: 1px solid var(--background-color);
+    margin-bottom: .5rem;
+}
+
+.list-topic a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.list-subtopic .active {
+    font-weight: 600;
+    color : var(--primary-color);
+}
+
+.list-subtopic li {
+    font-size: 1rem;
+    list-style: none;
+    padding: .7rem 1.1rem;
+    font-weight: 400;
+}
+
+.list-subtopic li a:hover {
+    cursor: pointer;
+    color : var(--primary-color);
+}
+
+.list-subtopic a {
+    display: flex;
+    align-items: center;
+    color : var(--text-color);
+    text-decoration: none;
+}
+
+@media screen and (max-width : 800px) {
+    .side-bar{
+        display: none;
+    }
+}
