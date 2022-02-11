@@ -1,0 +1,64 @@
+.text-box {
+    width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-box-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.validation-and-error {
+    width: 100%;
+    margin: 1rem;
+}
+
+.text-label {
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.text {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.username {
+    margin: 0 4px;
+}
+
+.validation-message {
+    color: var(--danger-color);
+    font-size: 1.2rem; 
+    margin-top: 0.5rem;
+}
+
+.error-message {
+    color: var(--success-color);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.radio label,.checkbox label{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.radio input,.checkbox input{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.radio.disabled label,.checkbox.disabled label{
+    color: var(--danger-color);
+}
+
+.radio.disabled input,.checkbox.disabled input{
+    cursor: not-allowed;
+}
