@@ -8,8 +8,8 @@
 .list-topic {
     padding: 1rem;
     font-weight: 800;
-    border-bottom: 1px solid var(--background-color);
-    margin-bottom: .5rem;
+    border-bottom: 1px solid var(--secondary-color);
+
 }
 
 .list-topic a {

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="badge.css">
+    <link rel="stylesheet" href="avatar.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/component.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <title>Badge</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <div class="left-nav">
+                <a href="../../index.html">Nuclei</a>
+            </div>
+            <ul class="right-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Github</a></li>
+            </ul>
+        </nav>
+    </div>    
+    <main class="doc-container">
+            <aside class="side-bar">
+
+                <div>
+                    <div class="list-topic">
+                        <a>Components</a>
+                    </div>
+                    <ul class="list-subtopic">
+                        <li>
+                            <a href="alert.html">
+                                Alert
+                            </a>
+                        </li>
+                        <li>
+                            <a href="avatar.html">Avatar</a>
+                        </li>
+                        <li>
+                            <a class="active" href="#">Badge</a>
+                        </li>
+                        <li>
+                            <a href="button.html">Button</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <div class="doc-content">
+                <div class="content-title">
+                    Badge
+                </div>
+                <div class="content-subtitle">
+                    Badge is used to display number or online activity of any user. It is present on the top-right or bottom-right of an icon or an avatar. 
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div class="content-heading">
+                    Badge on Icon 
+                </div>
+
+                <div class="content-subtitle">
+                    Badge on Icon is present on the top-right of an icon. It is mostly used in shopping website or any notification functionality.
+                </div>
+
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=737.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522icon%2520url%2522%2520alt%253D%2522your-icon%2522%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522number%2522%253E10%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522icon%2520url%2522%2520alt%253D%2522your-icon%2522%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522number%2522%253E5%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A" style="width: 900px; height: 480px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                <div class="content-heading">
+                    Preview
+                </div>
+               
+                <div class="example-div">
+                    <div class="badge">
+                        <img class="icon" src="/asset/bell.svg" alt="bell">
+
+                        <div class="number">99+</div>
+                    </div>
+
+                    <div class="badge">
+                        <img class="icon" src="/asset/cart.svg" alt="cart">
+
+                        <div class="number">3</div>
+                    </div>
+
+                </div>
+
+
+                <div class="horizontal-line"></div>
+
+                <div class="content-heading">
+                    Badge on Avatar
+                </div>
+
+                <div class="content-subtitle">
+                    Badge on avatar is used displayed on the bottom-right of an avatar. It is used to display the online activity of any user.  
+                </div>
+
+                <iframe class="code-snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=737.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522image%2520url%2522%2520alt%253D%2522avatar-1%2522%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522profile%2520online%2522%253E%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522image%2520url%2522%2520alt%253D%2522avatar-1%2522%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522profile%2520offline%2522%253E%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522image%2520url%2522%2520alt%253D%2522avatar-1%2522%253E%250A%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522profile%2520dnd%2522%253E%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E%250A" style="width: 900px; height: 630px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+
+                <div class="content-heading">
+                    Preview
+                </div>
+
+                <div class="example-div">
+                    <div class="badge">
+                        <img class="avatar" src="https://images.unsplash.com/flagged/photo-1577351285836-19ff13f8e615?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="avatar-1">
+
+                        <div class="profile online"></div>
+                    </div>
+                    
+
+                    <div class="badge">
+                        <img class="avatar" src="https://images.unsplash.com/flagged/photo-1577351285836-19ff13f8e615?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="avatar-1">
+
+                        <div class="profile offline"></div>
+                    </div>
+ 
+                    <div class="badge">
+                        <img class="avatar" src="https://images.unsplash.com/flagged/photo-1577351285836-19ff13f8e615?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="avatar-1">
+
+                        <div class="profile dnd"></div>
+                    </div>
+                </div>
+                
+                <div class="horizontal-line"></div>
+
+             
+            </div>
+        </main>
+    </div>
+ 
+</body>
+</html>
