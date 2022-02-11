@@ -5,7 +5,7 @@
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 9px;
 
     --default-color: #004aad;
-    --error-color: #ee1a1a;
+    --danger-color: #ee1a1a;
     --success-color: #0a6d0a;
     --warning-color: #9ee730;
     --background-color: #ffffff;
@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    text-align: center;
 }
 
 
