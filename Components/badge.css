@@ -1,25 +1,19 @@
+body {
+    text-align: center;
+}
+
 .badge{
     position: relative;
     width: max-content;
 }
 
-.badge > div{
-    bottom: 1rem;
-    right: 2rem;
-    position: absolute;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-    border: 2px solid var(--secondary-color);
-}
-
 .icon {
     width: 2rem;
     height: 2rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
-.badge .number{
+.number {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +26,7 @@
     height: 1.5rem;
     width: 1.5rem;
     border: none;
+    border-radius: 50%;
     background-color: var(--primary-color);
 }
 
@@ -54,5 +49,5 @@
 }
 
 .badge .dnd{
-    background-color: var(--error-color);
+    background-color: var(--danger-color);
 }
