@@ -1,0 +1,23 @@
+.solid-disc {
+    list-style: solid disc;
+}
+
+.hollow-disc {
+    list-style: circle;
+}
+
+.square-disc {
+    list-style: square;
+}
+
+.no-list-style {
+    list-style: none;
+}
+
+.list-container {
+    display: flex;
+}
+
+.inline-list {
+    margin: 0 1rem;
+}
