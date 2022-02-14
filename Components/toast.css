@@ -1,0 +1,11 @@
+.toast {
+    width: 25%;
+    margin: 0 auto; 
+    background-color: var(--primary-color); 
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-color); 
+    text-align: center; 
+    border-radius: 0.5rem; 
+    padding: 1rem; 
+    opacity: 0.8;
+}
