@@ -1,17 +1,29 @@
+.code-container {
+    display: flex;
+}
+
 .solid-disc {
     list-style: solid disc;
+    margin: 2rem;
 }
 
 .hollow-disc {
     list-style: circle;
+    margin: 2rem;
 }
 
 .square-disc {
     list-style: square;
+    margin: 2rem;
 }
 
 .no-list-style {
     list-style: none;
+    margin: 2rem;
+}
+
+.ol-list {
+    margin: 2rem;
 }
 
 .list-container {
