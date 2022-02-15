@@ -47,7 +47,7 @@
 }
 
 .outline-danger {
-    border : 1px solid var(--danger-color);
+    border: 1px solid var(--danger-color);
     color: var(--danger-color);
     background-color: var(--background-color);
 }
@@ -59,7 +59,7 @@
 }
 
 .outline-warning {
-    border : 1px solid var(--warning-color);
+    border: 1px solid var(--warning-color);
     color: var(--warning-color);
     background-color: var(--background-color);
 }

@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 
-.badge{
+.badge {
     position: relative;
     width: max-content;
 }
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    top : 0px;
+    top: 0px;
     right: 3px;
     position: absolute;
     font-size: 0.8rem;
@@ -40,14 +40,14 @@ body {
     border: 2px solid var(--secondary-color);
 }
 
-.badge .online{
+.badge .online {
     background-color: var(--success-color);
 }
 
-.badge .offline{
+.badge .offline {
     background-color: var(--offline-color);
 }
 
-.badge .dnd{
+.badge .dnd {
     background-color: var(--danger-color);
 }

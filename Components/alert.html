@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="alert.css">
     <link rel="stylesheet" href="/css/component.css">
-    <title>Alerts</title>
+    <title>Alert</title>
 </head>
 
 <body>
@@ -21,132 +21,105 @@
                 <li><a href="#">Github</a></li>
             </ul>
         </nav>
-    </div>    
-    <main class="doc-container">
-            <aside class="side-bar">
-
-
-                <div>
-                    <div class="list-topic">
-                        <a>Components</a>
-                    </div>
-                    <ul class="list-subtopic">
-                        <li>
-                            <a class="active" href="#">
-                                Alert
-                            </a>
-                        </li>
-                        <li>
-                            <a href="avatar.html">Avatar</a>
-                        </li>
-                        <li>
-                            <a href="badge.html">
-                                Badge
-                            </a>
-                        </li>
-                        <li>
-                            <a href="button.html">Button</a>
-                        </li>
-                        <li>
-                            <a href="image.html">Image</a>
-                        </li>
-                        <li>
-                            <a href="input.html">Input</a>
-                        </li>
-                        <li>
-                            <a href="list.html">Lists</a>
-                        </li>
-                        <li>
-                            <a href="toast.html">Toast</a>
-                        </li>
-                        <li>
-                            <a href="typography.html">Typography</a>
-                        </li>
-                    </ul>
-                </div>
-            </aside>
-
-            <div class="doc-content">
-                <div class="content-title">
-                    Alert
-                </div>
-                <div class="content-subtitle">
-                    An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
-                </div>
-
-                <div class="horizontal-line"></div>
-
-                <div class="content-heading">
-                    Simple Alert 
-                </div>
-
-                <div class="content-subtitle">
-                    Simple Alerts can be created using <code>alert</code> class, followed by the <code>type</code> name.
-                </div>
-                
-                <iframe class="code-snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=737.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520default%2522%253E%250A%2509%253Cstrong%253EDefault%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2509%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2509%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2509%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E" style="width: 950px; height: 470px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
-
-                <div class="content-heading">
-                    Preview
-                </div>
-               
-                <div class="example-div alert-box">
-                    <div class="alert default">
-                        <strong>Default!</strong> This is a Default Alert - Check it now!
-                    </div>
-
-                    <div class="alert danger">
-                        <strong>Error!</strong> This is an Error Alert - Check it now!
-                    </div>
-
-                    <div class="alert success">
-                        <strong>Success!</strong> This is a Success Alert - Check it now!
-                    </div>
-
-                    <div class="alert warning">
-                        <strong>Warning!</strong> This is a Warning Alert - Check it now!
-                    </div>
-                </div>
-
-
-                <div class="horizontal-line"></div>
-
-                <div class="content-heading">
-                    Outline Alert
-                </div>
-
-                <div class="content-subtitle">
-                    Outline alerts are created by using <code>alert</code> class, followed by <code>outline-type</code>.
-                </div>
-
-                <iframe class="code-snippet" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=737.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outline-default%2522%253E%250A%2509%253Cstrong%253EDefault%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%250A%2509%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%250A%2509%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253E%250A%2509%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E" style="width: 950px; height: 470px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
-
-                <div class="content-heading">
-                    Preview
-                </div>
-
-                <div class="example-div alert-box">
-                    <div class="alert outline-default">
-                        <strong>Default!</strong> This is a Default Alert - Check it now!
-                    </div>
-
-                    <div class="alert outline-danger">
-                        <strong>Error!</strong> This is an Error Alert - Check it now!
-                    </div>
-
-                    <div class="alert outline-success">
-                        <strong>Success!</strong> This is a Success Alert - Check it now!
-                    </div>
-
-                    <div class="alert outline-warning">
-                        <strong>Warning!</strong> This is a Warning Alert - Check it now!
-                    </div>
-                </div>
-
-                <div class="horizontal-line"></div>
-            </div>
-        </main>
     </div>
- 
+    <main class="doc-container">
+        <aside class="side-bar">
+            <div class="list-topic">Components</div>
+
+            <ul class="list-subtopic">
+                <li><a class="active" href="#">Alert</a></li>
+                <li><a href="avatar.html">Avatar</a></li>
+                <li><a href="badge.html">Badge</a></li>
+                <li><a href="button.html">Button</a></li>
+                <li><a href="card.html">Card</a></li>
+                <li><a href="image.html">Image</a></li>
+                <li><a href="input.html">Input</a></li>
+                <li><a href="list.html">Lists</a></li>
+                <li><a href="toast.html">Toast</a></li>
+                <li><a href="typography.html">Typography</a></li>
+            </ul>
+        </aside>
+
+        <section class="doc-content">
+            <header class="content-title">Alert</header>
+
+            <div class="content-subtitle">
+                An alert displays a short, important message in a way that attracts the user's attention without
+                interrupting the user's task.
+            </div>
+
+            <div class="horizontal-line"></div>
+
+            <div class="content-heading">Simple Alert</div>
+
+            <div class="content-subtitle">
+                Simple Alerts can be created using <code>alert</code> class, followed by the <code>type</code> name.
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=737.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520default%2522%253E%250A%2509%253Cstrong%253EDefault%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2509%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2509%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2509%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+                style="width: 950px; height: 470px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <div class="content-heading">Preview</div>
+
+            <div class="example-div alert-box">
+                <div class="alert default">
+                    <strong>Default!</strong> This is a Default Alert - Check it now!
+                </div>
+
+                <div class="alert danger">
+                    <strong>Error!</strong> This is an Error Alert - Check it now!
+                </div>
+
+                <div class="alert success">
+                    <strong>Success!</strong> This is a Success Alert - Check it now!
+                </div>
+
+                <div class="alert warning">
+                    <strong>Warning!</strong> This is a Warning Alert - Check it now!
+                </div>
+            </div>
+
+            <div class="horizontal-line"></div>
+
+            <div class="content-heading">Outline Alert</div>
+
+            <div class="content-subtitle">
+                Outline alerts are created by using <code>alert</code> class, followed by <code>outline-type</code>.
+            </div>
+
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=737.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outline-default%2522%253E%250A%2509%253Cstrong%253EDefault%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%250A%2509%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%250A%2509%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253E%250A%2509%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+                style="width: 950px; height: 470px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <div class="content-heading">Preview</div>
+
+            <div class="example-div alert-box">
+                <div class="alert outline-default">
+                    <strong>Default!</strong> This is a Default Alert - Check it now!
+                </div>
+
+                <div class="alert outline-danger">
+                    <strong>Error!</strong> This is an Error Alert - Check it now!
+                </div>
+
+                <div class="alert outline-success">
+                    <strong>Success!</strong> This is a Success Alert - Check it now!
+                </div>
+
+                <div class="alert outline-warning">
+                    <strong>Warning!</strong> This is a Warning Alert - Check it now!
+                </div>
+            </div>
+
+            <div class="horizontal-line"></div>
+
+        </section>
+    </main>
 </body>
+
 </html>
