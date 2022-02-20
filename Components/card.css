@@ -1,9 +1,3 @@
-.card-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .card {
   box-shadow: var(--box-shadow);
   width: 40%;
