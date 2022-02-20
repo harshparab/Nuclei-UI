@@ -83,15 +83,6 @@ body {
     flex-wrap: wrap;
 }
 
-.alert-box{
-    flex-direction: column;
-}
-
-.heading-box{
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .horizontal-line{
     margin: 2rem 0;
     width: 100%;
