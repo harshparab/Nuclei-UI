@@ -1,15 +1,15 @@
-@import url('Components/alert.css');
-@import url('Components/avatar.css');
-@import url('Components/badge.css');
-@import url('Components/button.css');
-@import url('Components/card.css');
-@import url('Components/image.css');
-@import url('Components/input.css');
-@import url('Components/list.css');
-@import url('Components/typography.css');
-@import url('sidebar.css');
-@import url('navbar.css');
-@import url('main.css');
+@import url(Components/alert.css);
+@import url(Components/avatar.css);
+@import url(Components/badge.css);
+@import url(Components/button.css);
+@import url(Components/card.css);
+@import url(Components/image.css);
+@import url(Components/input.css);
+@import url(Components/list.css);
+@import url(Components/typography.css);
+@import url(sidebar.css);
+@import url(navbar.css);
+@import url(main.css);
 
 :root{  
     --primary-color: #191c9e;
