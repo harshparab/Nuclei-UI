@@ -1,14 +1,15 @@
-@import url('Components/alert.css');
-@import url('Components/avatar.css');
-@import url('Components/badge.css');
-@import url('Components/button.css');
-@import url('Components/card.css');
-@import url('Components/image.css');
-@import url('Components/input.css');
-@import url('Components/list.css');
-@import url('Components/typography.css');
-@import url('sidebar.css');
-@import url('navbar.css');
+@import url(/Components/alert.css);
+@import url(/Components/avatar.css);
+@import url(/Components/badge.css);
+@import url(/Components/button.css);
+@import url(/Components/card.css);
+@import url(/Components/image.css);
+@import url(/Components/input.css);
+@import url(/Components/list.css);
+@import url(/Components/typography.css);
+@import url(sidebar.css);
+@import url(navbar.css);
+@import url(main.css);
 
 :root{  
     --primary-color: #191c9e;
@@ -42,7 +43,7 @@ body {
     flex:1 1 0%;
 }
 
-.content-title{
+.content-title {
     color : var(--text-color);
     font-size: 1.75rem;
     font-weight: 900;
@@ -81,15 +82,6 @@ body {
     padding: 1rem;
     margin: auto;
     flex-wrap: wrap;
-}
-
-.alert-box{
-    flex-direction: column;
-}
-
-.heading-box{
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .horizontal-line{

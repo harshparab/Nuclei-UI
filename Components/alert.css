@@ -1,16 +1,10 @@
-.heading {
-    padding: 1.4rem 0;
-    font-size: 2rem;
+.alert-box{
+    flex-direction: column;
 }
 
-.sub-heading {
-    font-size: 1.2rem;
-    margin-top: 2rem;
-}
-
-.info-text {
-    padding: 2rem 0;
-    font-size: 1rem;
+.heading-box{
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .alert {
