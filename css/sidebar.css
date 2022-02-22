@@ -1,15 +1,11 @@
 .side-bar {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     flex: 0 0 240px;
     margin-right: 1rem;
-    background-color: var(--background-color);
 }
 
 .list-topic {
     padding: 1rem;
     font-weight: 800;
-    border-bottom: 1px solid var(--secondary-color);
-
 }
 
 .list-topic a {
