@@ -1,0 +1,17 @@
+.homepage-intro {
+    padding: 15rem;
+}
+
+.installation {
+    padding: 15rem;
+    margin-bottom: 5rem;
+}
+
+.homepage-span {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
