@@ -70,6 +70,7 @@ body {
 }
 
 .example-div{
+    position: relative;
     box-shadow: var(--box-shadow);
     border-radius: 4px;
     background-color: var(--background-color);
